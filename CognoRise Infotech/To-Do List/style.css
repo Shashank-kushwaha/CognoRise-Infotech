@@ -1,0 +1,90 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    background-size: 100%;
+    color: white;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(58,112,179,1) 100%);
+}
+h1{
+    padding: 10px;
+    font-size: 42px;
+    text-align: center;
+}
+
+.text-width{
+    width: 60%;
+}
+
+.box{
+    width: 900px;
+    height: auto;
+    opacity: 0.6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inputField{
+    width: 700px;
+    height: 50px;
+    margin-left: 3rem;
+    border-radius: 10px;
+    box-shadow: inset;
+    outline: none;
+}
+#hr{
+    width: 800px;
+    margin: 2rem 0 1rem 3rem;
+}
+button{
+    width: 100px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    height: 50px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#inputField{
+    font-size: 22px;
+}
+ 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #E7E8D8;
+    color: black;
+    font-size: 22px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.deleteTask {
+    background-color: #E4003A;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.editTask {
+    background-color: #40534C;
+    color: white;
+    border: none;
+    /* padding: 5px 10px; */
+    border-radius: 5px;
+    cursor: pointer;
+}
